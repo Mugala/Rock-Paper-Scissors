@@ -1,7 +1,17 @@
-<style>h1 {
-  font-size=50px;
-  font-face=fantasy;
-  color="blue";
+
+style>h1 {
+  font-size: 50px;
+  font-face: fantasy;
+  color: "blue";
 }
 
-body {}
+body{
+    background-image: url("../images/image1.png");
+    background-image: no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+
