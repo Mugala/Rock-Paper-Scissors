@@ -1,7 +1,18 @@
-<style>h1 {
-  font-size=50px;
-  font-face=fantasy;
-  color="blue";
+body {
+  background-image: url(../images/Waterr.jpg);
+  background-size: cover;
+  font-size: 300%;
+  font-family: fantasy;
+  image-resolution: from-image;
+  padding-left: 5%;
+  border: 0%;
+  height: 100vh;
+  background-repeat: no-repeat;
 }
 
-body {}
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border: 10px solid black;
+}
