@@ -31,10 +31,13 @@ h1{
   background-color: white;
   width: 40%;
   height: 30vh;
-  display:flex;
-  align-items: center;
-  justify-content: center;
+  margin-left: 25%;
 }
+
 .output-box li{
   list-style: none;
+}
+
+.output-box{
+  margin-right: 40px;
 }
