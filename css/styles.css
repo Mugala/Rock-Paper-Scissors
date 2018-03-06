@@ -101,3 +101,14 @@ body{
       -webkit-transition: background 0.25s linear;
   }
   
+  input[type=radio]:checked ~ .check {
+    border: 5px solid rgb(12, 12, 12);
+  }
+  
+  input[type=radio]:checked ~ .check::before{
+    background: rgb(12, 12, 12);
+  }
+  
+  input[type=radio]:checked ~ label{
+    color: rgb(10, 10, 10);
+  }
