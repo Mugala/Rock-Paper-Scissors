@@ -1,9 +1,21 @@
 body{
-    background-image: url("../images/image1.png");
+    background-image: url("../images/image2.jpg");
     background-image: no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     font-family: 'Helvetica Neue', sans-serif;
+    height: 100vh;
+  }
+
+  .Login-box {
+    width: 500px;
+    height: 680px;
+    background: rgba(4, 240, 228, 0.7);
+    padding: 40px;
+    color: black;
+    margin: 0 auto;
+    margin-top: 140px;
+    text-align: center;
   }
