@@ -1,6 +1,6 @@
 var imageSlider = document.getElementById('imagesSlider');
 
-var images = ["url('images/wonder.jpg')", "url('images/all.jpg')", "url('images/paper.jpg')", "url('images/makasi.jpeg')", "url('images/paper.jpg')", "url('images/knight.jpeg')"];
+var images = ["url('images/wonder.jpg')", "url('images/all.jpg')", "url('images/paper.jpg')", "url('images/all3.jpeg')", "url('images/paper.jpg')", "url('images/knight.jpeg')"];
 
 
 var counter = 0;
