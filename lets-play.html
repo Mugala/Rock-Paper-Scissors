@@ -2,38 +2,39 @@
 <html>
 <head>
 
-    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline|Cinzel+Decorative|Norican|Pinyon+Script" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Norican|Pinyon+Script" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Norican|Pinyon+Script" rel="stylesheet">
-  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="css/jbootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/jstyles.css" rel="stylesheet" type="text/css">
 
   <title>Let's play</title>
 </head>
 <body>
-  <h1 id="font"> Lets Play</h1>
-  <h2>Rock!Papers!Scissors</h2><br>
+  <h1 id="font"> Let's Play</h1>
+  <h1>Rock!Papers!Scissors</h1>
 <p id="font1">Click any of the following options and see if you win. <b>Good luck!</b></p>
-  <br><br>
+
   <div class="container-fluid">
   <div class="row">
     <div class="col-md-4" >
-    <button class="btn btn-primary" class="Rock"><img src="images/rock1.jpg" alt="Rock"  id="rock">Rock Smashes Scissor</button>
+      <img src="images/rock2.gif" alt="Rock"  id="rock">
+      <button id="btn" class="btn btn-primary" type="button"class="Rock" onclick="play('rock')"><span id="rockFont">Rock!</span></button>
       </div>
       <div class="col-md-4">
-      <button class="btn btn-primary" class="Paper"><img src="images/paper.jpg" alt="Paper" id="paper">Paper Wraps Rock</button>
+        <img src="images/paper.gif" alt="Paper" id="paper">
+      <button class="btn btn" type="button" class="Paper"  onclick="play('paper')"><span id="paperFont">Paper!</span></button>
       </div>
       <div class="col-md-4" >
-      <button class="btn btn-primary"class="Scissors"><img src="images/scissor.jpg" alt="scissor" id="scissor">Scissor cuts paper</button>
+        <img src="images/scissors.gif" alt="scissor" id="scissor">
+      <button class="btn btn-success" type="button"class="Scissors" onclick="play('scissors')"><span id="scissorFont">Scissors!</span></button>
       </div>
     </div>
-    <br><br>
     <p id="font2">RESULTS</p>
+      <button type="reset" class="btn btn-danger" id="reset" onclick="reset()"><span id="reset1">Reset Scores</span></button>
     <div class="output-box">
         <div id="Result"> </div>
     </div>
-  <script src="js/jquery-3.3.1.js"></script>
-  <script src="js/scripts.js"></script>
+
+  <script src="scripts/jquery-3.3.1.js"></script>
+  <script src="scripts/scripts.js"></script>
 </div>
  </body>
 
