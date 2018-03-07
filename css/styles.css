@@ -18,12 +18,13 @@ body{
     margin: 0 auto;
     margin-top: 140px;
     text-align: center;
+    font-family: 'Aladin', cursive;
   }
 
   .Login-box, h3 {
     font-weight: 900;
     color: rgb(0, 0, 0);
-    font-size: 150%;      
+    font-size: 150%;
   }
 
   label[placeholder], [placeholder], *[placeholder] {
@@ -36,7 +37,7 @@ body{
     padding: 0;
       overflow: auto;
   }
-  
+
   ul li{
     color: rgb(14, 13, 13);
     display: block;
@@ -45,13 +46,14 @@ body{
     width: 100%;
     height: 100px;
       border-bottom: 1px solid #333;
-  }
-  
+      font-family: 'Aladin', cursive;
+      }
+
   ul li input[type=radio]{
     position: absolute;
     visibility: hidden;
   }
-  
+
   ul li label{
     display: block;
     position: relative;
@@ -64,11 +66,11 @@ body{
     cursor: pointer;
     -webkit-transition: all 0.25s linear;
   }
-  
+
   ul li:hover label{
       color: rgb(224, 153, 153);
   }
-  
+
   ul li .check{
     display: block;
     position: absolute;
@@ -82,11 +84,11 @@ body{
       transition: border .25s linear;
       -webkit-transition: border .25s linear;
   }
-  
+
   ul li:hover .check {
     border: 5px solid rgb(8, 8, 8);
   }
-  
+
   ul li .check::before {
     display: block;
     position: absolute;
@@ -100,15 +102,15 @@ body{
       transition: background 0.25s linear;
       -webkit-transition: background 0.25s linear;
   }
-  
+
   input[type=radio]:checked ~ .check {
     border: 5px solid rgb(12, 12, 12);
   }
-  
+
   input[type=radio]:checked ~ .check::before{
     background: rgb(12, 12, 12);
   }
-  
+
   input[type=radio]:checked ~ label{
     color: rgb(10, 10, 10);
   }
