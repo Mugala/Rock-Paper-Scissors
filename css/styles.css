@@ -1,10 +1,10 @@
 @font-face {
-  src: url(../fonts/Butcherman-Regular.ttf);
-  font-family: Butcherman-Regular;
+  src: url(../fonts/fonty.ttf);
+  font-family: fonty;
 }
 
 #text {
-  font-family: Butcherman-Regular;
+  font-family: fonty;
   font-weight: 400;
   font-size: 160px;
   color: #5DADE2;
@@ -25,5 +25,4 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  border: 10px solid black;
 }
