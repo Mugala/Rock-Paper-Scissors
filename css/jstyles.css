@@ -9,19 +9,13 @@
   background-color: green;
   margin-top: 0;
 }
-
 body{
-  font-family: fonty;
-  font-size: 50px;
+  font-family:"Lato";
+  font-weight:700;
 }
-#navbar{
-    float: right;
-    margin: 0;
-  }
-  .navbar-nav li {
-    float: right;
-  }
-
+.bar{
+  float: left;
+}
 #font{
     text-align: center;
     color:cyan;
@@ -47,8 +41,9 @@ body{
   #font1{
     text-align: center;
     color: blue;
+    font-family: fonty;
+    font-weight: 200;
     font-size: 55px;
-    font-weight: lighter;
   }
 #font2{
   text-align: center;
