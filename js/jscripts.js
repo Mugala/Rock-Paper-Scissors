@@ -1,80 +1,79 @@
-var computerChoice = "";
-var user1Choice = "";
-var user2Choice = "";
-function computerThink() {
-	computerChoice = Math.floor(Math.random()*3);
-	if(computerChoice === 1) {
-		computerChoice = "rock";
-	}
-	else if(computerChoice === 2) {
-		computerChoice = "paper";
-	}
-	else {
-		computerChoice = "scissors";
-	}
+var loss=0;
+var win =0;
+
+var play =function (userChoice) {
+  document.getElementById("player").innerHTML = "";
+  document.getElementById("opponent").innerHTML = "";
+  document.getElementById("results").innerHTML = "";
+
+
+if (userChoice == "rock" || userChoice == "paper" || userChoice == "scissors") {
+    document.getElementById("player").innerHTML = 'You chose' + ' ' + userChoice + '.';
+  }
+
+
+
+  var computerChoice = Math.random();
+if (computerChoice < (1 / 3)) {
+  computerChoice = "rock";
+} else if (computerChoice <= (2 / 3)) {
+  computerChoice = "paper";
+} else {
+  computerChoice = "scissors";
 }
 
-function rockPick() {
-	userChoice = "rock";
-	computerThink();
-	results();
-	replay();
-	function rock() {
-		document.getElementById("rock").innerHTML = results;
-	}
-}
+document.getElementById("opponent").innerHTML = '<br><br> Computer chose' + ' ' + computerChoice + '.';
+var compare = function(choice1, choice2) {
+  if (choice1 == choice2) {
+    return "The result is a tie!";
+  } else if (choice1 == "rock") {
+    if (choice2 == "scissors") {
+      wins++;
+      return "rock wins. rock on.";
+    } else {
+      loses++;
+      return "sorry. paper wins.";
+    }
+  } else if (choice1 == "paper") {
+    if (choice2 == "rock") {
+      wins++;
+      return "paper wins";
+    } else {
+      loses++;
+      return "sorry. scissors win.";
+    }
+  } else if (choice1 == "scissors") {
+    if (choice2 == "rock") {
+      loses++;
+      return "sorry. rock wins";
+    } else {
+      wins++;
+      return "scissors win";
+    }
+  }
 
-function paperPick() {
-	userChoice = "paper";
-	computerThink();
-	results();
-	replay();
-}
 
-function scissorsPick() {
-	userChoice = "scissors";
-	computerThink();
-	results();
-	replay();
-}
+    var winner = compare(userChoice, computerChoice);
+document.getElementById("results").innerHTML = winner;
+document.getElementById("wins").innerHTML = wins;
+document.getElementById("loses").innerHTML = loses;
 
-function compare(choice1, choice2) {
-	if (choice1 === choice2) {
-		alert("It's a tie!");
-	}
-	else if(choice1 === "rock") {
-		if (choice2 === "scissors") {
-			alert("You Win!");
-		}
-	}
-	else if(choice1 === "paper") {
-		if (choice2 === "rock") {
-			alert("You Win!");
-		}
-	}
-	else if(choice1 === "scissors") {
-		if (choice2 === "paper") {
-			alert("You Win!");
-		}
-	}
-	else if(choice1 === "rock") {
-		if(choice2 === "paper") {
-			alert("You Lose");
-		}
-	}
-	else if(choice1 === "paper") {
-		if(choice2 === "scissors") {
-			alert("You Lose");
-		}
-	}
-	else if(choice1 === "scissors") {
-		if(choice2 === "rock") {
-			alert("You Lose");
-		}
-	}
+if (wins > 99 || loses > 99) {
+    document.getElementById("wins").style.fontSize = "44";
+    document.getElementById("loses").style.fontSize = "44";
+  }
+  if (wins > 999) {
+    alert("You reached the max score of 999. <br />Congratulations, you have no life.");
+  }
+  if (loses > 999) {
+    alert("Your opponent reached the max score of 999. <br />We're sorry, you have no life.");
+  }
 }
+};
+var reset = function() {
+    loses = 0;
+    wins = 0;
+    document.getElementById("wins").innerHTML = wins;
+    document.getElementById("loses").innerHTML = loses;
 
-function results() {
-	alert("You chose " + userChoice + ". Computer chose " + computerChoice + ".");
-	compare(userChoice, computerChoice);
-}
+  };
