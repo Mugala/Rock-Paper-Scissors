@@ -7,6 +7,14 @@ body{
   font-family: fonty;
   font-size: 50px;
 }
+#navbar{
+    float: right;
+    margin: 0;
+  }
+  .navbar-nav li {
+    float: right;
+  }
+
 #font{
     text-align: center;
     color:cyan;
