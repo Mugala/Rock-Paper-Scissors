@@ -16,4 +16,4 @@ function carousel() {
   }
   console.log("kanyi")
 }
-setInterval(carousel, 2000);
+setInterval(carousel, 1000);

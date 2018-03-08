@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 Copyright (c) 2011, Typomondo,
 with Reserved Font Name "Butcherman".
+=======
+Copyright (c) 2011 by Sorkin Type Co (www.sorkintype.com),
+with Reserved Font Name "Pinyon Script".
+>>>>>>> 01bc857157c7895339af9ae890c19f6c92cd4e80
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
