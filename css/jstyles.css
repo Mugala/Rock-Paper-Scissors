@@ -3,6 +3,12 @@
   font-family: fonty;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+body {
+=======
+>>>>>>> 27332c3a14bc0cf9216431ffdf7d04bf376c11a2
 .page-header {
   text-align: center;
   padding: 10px;
@@ -11,15 +17,24 @@
 }
 
 body{
+<<<<<<< HEAD
 =======
 
 body {
 >>>>>>> f69460f949628283cb3531bccd0a42f6080c16c4
+=======
+>>>>>>> 950efade5b085e6e99a2229ab868251a3d81c599
+>>>>>>> 27332c3a14bc0cf9216431ffdf7d04bf376c11a2
   font-family: fonty;
   font-size: 50px;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+#font {
+=======
+>>>>>>> 27332c3a14bc0cf9216431ffdf7d04bf376c11a2
   #rockFont{
     font-size: 45px;
   }
@@ -42,9 +57,13 @@ body {
     font-weight: lighter;
   }
 #font2{
+<<<<<<< HEAD
 =======
 #font {
 >>>>>>> f69460f949628283cb3531bccd0a42f6080c16c4
+=======
+>>>>>>> 950efade5b085e6e99a2229ab868251a3d81c599
+>>>>>>> 27332c3a14bc0cf9216431ffdf7d04bf376c11a2
   text-align: center;
   color: black;
   font-size: 85px;
@@ -77,6 +96,7 @@ h1 {
   font-weight: lighter;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 #reset{
   align-items: center;
 }
@@ -106,6 +126,8 @@ h1 {
   width:150px;
   opacity: 0.7;
 =======
+=======
+>>>>>>> 27332c3a14bc0cf9216431ffdf7d04bf376c11a2
 
 #font2 {
   text-align: center;
@@ -144,7 +166,40 @@ body {
   height: 60%;
   width: 60%;
   opacity: 1;
+<<<<<<< HEAD
 >>>>>>> f69460f949628283cb3531bccd0a42f6080c16c4
+=======
+=======
+#reset{
+  align-items: center;
+}
+#reset1{
+  color: #000000;
+  font-size: 40px
+}
+  body{
+    background-image:url("../images/us.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+  }
+#rock{
+    height:150px;
+    width: 150px;
+    opacity: 0.7;
+}
+#paper{
+  height: 150px;
+  width: 150px;
+  opacity: 0.7;
+}
+#scissor{
+  height:150px;
+  width:150px;
+  opacity: 0.7;
+>>>>>>> 950efade5b085e6e99a2229ab868251a3d81c599
+>>>>>>> 27332c3a14bc0cf9216431ffdf7d04bf376c11a2
 }
 
 .output-box {
