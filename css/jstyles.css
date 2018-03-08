@@ -1,8 +1,8 @@
 @font-face {
   src: url("../fonts/fonty.ttf");
   font-family: fonty;
-
 }
+<<<<<<< HEAD
 .page-header {
   text-align: center;
   padding: 10px;
@@ -11,16 +11,15 @@
 }
 
 body{
+=======
+
+body {
+>>>>>>> f69460f949628283cb3531bccd0a42f6080c16c4
   font-family: fonty;
   font-size: 50px;
 }
-#font{
-    text-align: center;
-    color:cyan;
-    font-size: 85px;
-    font-weight: lighter;
-  }
 
+<<<<<<< HEAD
   #rockFont{
     font-size: 45px;
   }
@@ -43,10 +42,41 @@ body{
     font-weight: lighter;
   }
 #font2{
+=======
+#font {
+>>>>>>> f69460f949628283cb3531bccd0a42f6080c16c4
   text-align: center;
-  color: white;
-  font-size: 50px;
+  color: black;
+  font-size: 85px;
+  font-weight: lighter;
 }
+
+#rockFont {
+  font-size: 45px;
+}
+
+#paperFont {
+  font-size: 45px;
+}
+
+#scissorFont {
+  font-size: 45px;
+}
+
+h1 {
+  color: black;
+  font-weight: lighter;
+  font-size: 100px;
+  text-align: center;
+}
+
+#font1 {
+  text-align: center;
+  color: black;
+  font-size: 100px;
+  font-weight: lighter;
+}
+<<<<<<< HEAD
 #reset{
   align-items: center;
 }
@@ -75,13 +105,53 @@ body{
   height:150px;
   width:150px;
   opacity: 0.7;
+=======
+
+#font2 {
+  text-align: center;
+  color: black;
+  font-size: 100px;
 }
-.output-box{
+
+#reset1 {
+  align-items: center;
+  font-size: 100px;
+  justify-content: center;
+  margin-left: 30%
+}
+
+body {
+  background-image: url("../images/imag.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+}
+
+#rock {
+  height: 60%;
+  width: 60%;
+  opacity: 1;
+}
+
+#paper {
+  height: 60%;
+  width: 60%;
+  opacity: 1;
+}
+
+#scissor {
+  height: 60%;
+  width: 60%;
+  opacity: 1;
+>>>>>>> f69460f949628283cb3531bccd0a42f6080c16c4
+}
+
+.output-box {
   overflow: auto;
   box-shadow: 0 0 5px 5px white;
-  background-color:#406DE7;
+  background-color: #406DE7;
   width: 40%;
   height: 20vh;
   margin-left: 30%;
-
 }
