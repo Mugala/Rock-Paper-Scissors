@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
+  background-image: url("../dimages/img2.jpg");
+=======
   background-image: url("../images/img2.jpg");
+>>>>>>> 1407aaca921079a5fe6986111d17f9f5652ceb9b
   background-repeat: no-repeat;
   background-size: cover;
 }

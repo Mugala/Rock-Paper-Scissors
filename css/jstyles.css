@@ -2,13 +2,49 @@
   src: url("../fonts/fonty.ttf");
   font-family: fonty;
 }
+<<<<<<< HEAD
 
 body {
+=======
+.page-header {
+  text-align: center;
+  padding: 10px;
+  background-color: green;
+  margin-top: 0;
+}
+
+body{
+>>>>>>> 950efade5b085e6e99a2229ab868251a3d81c599
   font-family: fonty;
   font-size: 50px;
 }
 
+<<<<<<< HEAD
 #font {
+=======
+  #rockFont{
+    font-size: 45px;
+  }
+  #paperFont{
+    font-size: 45px;
+  }
+  #scissorFont{
+    font-size: 45px;
+  }
+  h1{
+    color:cyan;
+    font-weight: lighter;
+    font-size: 75px;
+    text-align: center;
+  }
+  #font1{
+    text-align: center;
+    color: blue;
+    font-size: 55px;
+    font-weight: lighter;
+  }
+#font2{
+>>>>>>> 950efade5b085e6e99a2229ab868251a3d81c599
   text-align: center;
   color: black;
   font-size: 85px;
@@ -40,6 +76,7 @@ h1 {
   font-size: 100px;
   font-weight: lighter;
 }
+<<<<<<< HEAD
 
 #font2 {
   text-align: center;
@@ -78,6 +115,36 @@ body {
   height: 60%;
   width: 60%;
   opacity: 1;
+=======
+#reset{
+  align-items: center;
+}
+#reset1{
+  color: #000000;
+  font-size: 40px
+}
+  body{
+    background-image:url("../images/us.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+  }
+#rock{
+    height:150px;
+    width: 150px;
+    opacity: 0.7;
+}
+#paper{
+  height: 150px;
+  width: 150px;
+  opacity: 0.7;
+}
+#scissor{
+  height:150px;
+  width:150px;
+  opacity: 0.7;
+>>>>>>> 950efade5b085e6e99a2229ab868251a3d81c599
 }
 
 .output-box {
@@ -85,6 +152,6 @@ body {
   box-shadow: 0 0 5px 5px white;
   background-color: #406DE7;
   width: 40%;
-  height: 30vh;
+  height: 20vh;
   margin-left: 30%;
 }

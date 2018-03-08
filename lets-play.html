@@ -1,40 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-
   <link href="css/jbootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="css/jstyles.css" rel="stylesheet" type="text/css">
-
   <title>Let's play</title>
 </head>
 <body>
+  <div class="page-header">
   <h1 id="font"> Let's Play</h1>
   <h1>Rock!Papers!Scissors</h1>
-<p id="font1">Click any of the following options and see if you win. <b>Good luck!</b></p>
-
+  </div>
+    <p id="font1">Click any of the following options and see if you win. Good luck!</p>
   <div class="container-fluid">
-  <div class="row">
-    <div class="col-md-4" >
-      <img src="images/rock2.gif" alt="Rock"  id="rock">
-      <button id="btn" class="btn btn-primary" type="button"class="Rock" onclick="play('rock')"><span id="rockFont">Rock!</span></button>
+    <div class="row">
+      <div class="col-md-4" >
+      <button id="btn" class="btn btn-primary" type="button"class="Rock" onclick="play ('rock')"><span id="rockFont"><img src="images/rock2.gif" alt="Rock" id="rock">Rock!</span></button>
       </div>
       <div class="col-md-4">
-        <img src="images/paper.gif" alt="Paper" id="paper">
-      <button class="btn btn" type="button" class="Paper"  onclick="play('paper')"><span id="paperFont">Paper!</span></button>
+      <button class="btn btn" type="button" class="Paper" onclick="play('paper')"><span id="paperFont"><img src="images/paper.gif" alt="Paper" id="paper" >Paper!</span></button>
       </div>
       <div class="col-md-4" >
-        <img src="images/scissors.gif" alt="scissor" id="scissor">
-      <button class="btn btn-success" type="button"class="Scissors" onclick="play('scissors')"><span id="scissorFont">Scissors!</span></button>
-      </div>
+      <button class="btn btn-success" type="button"class="Scissors" onclick="play('scissors')"><span id="scissorFont"><img src="images/scissors.gif" alt="scissor" id="scissor" >Scissors!</span></button>
     </div>
-    <p id="font2">RESULTS</p>
-      <button type="reset" class="btn btn-danger" id="reset" onclick="reset()"><span id="reset1">Reset Scores</span></button>
-    <div class="output-box">
-        <div id="Result"> </div>
-    </div>
+  </div>
 
-  <script src="scripts/jquery-3.3.1.js"></script>
-  <script src="scripts/scripts.js"></script>
+      <center><button type="reset" class="btn btn-danger" id="reset" onclick="reset()"><span id="reset1">Reset Scores</span></button></center>
+      <p id="font2"><b>RESULTS</b></p>
+        <div id="Result"> </div>
+        <p><span id="player"></span> <span id="opponent"></span></p>
+      <h2 id="results"></h2>
+      <h2>Score</h2>
+         <div class="score-num"><span id="wins">0</span> wins</div>
+         <div class="score-divider"><span>-</span></div>
+         <div class="score-num"><span id="loses">0</span> loses</div>
+    </div>
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/jscripts.js"></script>
 </div>
  </body>
 
