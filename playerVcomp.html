@@ -2,13 +2,25 @@
 <html>
 
 <head>
-    
+
   <link href="css/lbootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="css/lstyles.css" rel="stylesheet" type="text/css">
 
   <title>Rock - Paper - Scissors</title>
 </head>
 <body>
+  <nav class="navbar navbar-inverse navbar-fixed-top navbar-collapse" id="head-navbar">
+    <div class="container-fluid">
+      <div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Home</li>
+          <li><a href="playerVcomp.html">Player Versus Comp</li>
+          <li><a href="player1Vplayer2.html">Two Players</li>
+          <li><a href="lets-play.html">Let's Play</li>
+        </ul>
+      </div>
+    </div>
+  </nav>
     <div class="Login-box">
        <h3>Enter Your name and choose a nickname!  </h3>
        <form id="P1">
@@ -20,9 +32,9 @@
       </div>
       </form>
         <div class="container">
-	
+
             <h2 style="font-size: 84px;">Pick a nickname: </h2>
-            
+
           <ul>
           <li>
             <input type="radio" id="f-option" name="selector">
@@ -31,10 +43,10 @@
             margin-top: -8px;
             margin-left: -147px;
         ">The Gladiator.</label>
-            
+
             <div class="check"></div>
           </li>
-          
+
           <li>
             <input type="radio" id="s-option" name="selector">
             <label for="s-option" style="
@@ -42,11 +54,11 @@
             margin-top: -8px;
             margin-left: -114px;
         " >The White-Walker.</label>
-            
+
             <div class="check"><div class="inside"></div></div>
           </li>
 
-          
+
           <li>
             <input type="radio" id="t-option" name="selector">
             <label for="t-option" style="
@@ -54,7 +66,7 @@
             margin-top: -8px;
             margin-left: -145px;
         ">The Dark Knight.</label>
-            
+
             <div class="check"><div class="inside"></div></div>
           </li>
 
@@ -65,9 +77,9 @@
             margin-top: -8px;
             margin-left: -220px;
         ">The Pirate.</label>
-            
+
             <div class="check"><div class="inside"></div></div>
-            
+
           </li>
         </ul>
 <button class="btn btn-success" id="next" type="submit" value="submit" style="
