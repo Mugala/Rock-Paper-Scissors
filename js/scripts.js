@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 r loses = 0;
 var wins = 0;
 
@@ -80,3 +81,5 @@ var play = function(userChoice) {
     alert("Your opponent reached the max score of 999. <br />We're sorry, you have no life.");
   }
 };
+=======
+>>>>>>> 995b27826e17879a6feaac74ff4d8bc86ab2292b
