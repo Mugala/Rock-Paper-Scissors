@@ -65,8 +65,6 @@ h1 {
   font-weight: lighter;
   font-size: 100px;
   text-align: center;
-  color: white;
-  font-size: 50px;
 }
 
 #font1 {
@@ -76,43 +74,18 @@ h1 {
   font-weight: lighter;
 }
 
-#font2 {
+<<<<<<< HEAD #font2 {
   text-align: center;
   color: black;
   font-size: 100px;
 }
 
 #reset1 {
-
   align-items: center;
-  font-size: 50px;
+  font-size: 100px;
   justify-content: center;
   margin-left: 30%
 }
-
-  body{
-    background-image:url("../images/us.gif");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    opacity: 0.7;
-  }
-#rock{
-    height: 60%;
-  width: 60%;
-  opacity: 0.7;
-}
-#paper{
-  height: 60%;
-  width: 60%;
-  opacity: 0.7;
-}
-#scissor{
-
-    height: 60%;
-  width:60%;
-  opacity: 0.7;
-=======
 
 body {
   background-image: url("../images/imag.jpg");
@@ -170,10 +143,12 @@ body {
   width: 150px;
   opacity: 1;
 }
-.output-box{
+
+.output-box {
   overflow: auto;
   box-shadow: 0 0 5px 5px white;
-  background-color:#406DE7;
+  background-color: #406DE7;
   width: 40%;
-  height: 30vh;
+  height: 20vh;
   margin-left: 30%;
+}
