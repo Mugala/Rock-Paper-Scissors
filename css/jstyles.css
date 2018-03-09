@@ -14,9 +14,21 @@ body {
   font-family: fonty;
   font-size: 50px;
 }
+#navbar {
+  display: flex;
+  display:inline-block;
+  font-size: 60px;
+  background-color: grey;
+  opacity: 0.7;
+  color: black;
+  align-items: flex-start;
+}
+#texto{
+  color: black;
+}
 
 #font {
-  font-size: 45px;
+  font-size: 60px;
 }
 
 #paperFont {
@@ -74,7 +86,7 @@ h1 {
   font-weight: lighter;
 }
 
-<<<<<<< HEAD #font2 {
+#font2 {
   text-align: center;
   color: black;
   font-size: 100px;
