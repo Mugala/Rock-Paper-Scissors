@@ -7,6 +7,10 @@ $(document).ready(function() {
       alert("WELCOME!!!" + " " + "THE WHITE WALKER");
     });
 
+    $("h3").click(function() {
+        alert("WELCOME!!!" + " " + "THE WHITE WALKER");
+      });
+
     $("t-option").click(function() {
         alert("WELCOME!!!" + " " + "THE DARK KNIGHT");
       });
