@@ -5,6 +5,10 @@
     Name.prototype.player1=function(){
         return this.name + " " 
     }
+
+    Name.prototype.player2=function(){
+      return this.name + " " 
+  }
          
     
     
@@ -14,7 +18,7 @@
 
     console.log(newName)
     
-    $(".Glad").click(function() {
+    $("#f-option").click(function() {
         var inputtedName = $("input#new-first-name").val();
         var newName = new Name (inputtedName);
         alert("Welcome!!! " + newName.player1   () + " The gladiator");
@@ -39,6 +43,34 @@
         var inputtedName = $("input#new-first-name").val();
         var newName = new Name (inputtedName);
         alert("Welcome!!! " + newName.player1   () + "The pirate");
+      }); 
+
+
+      $("#f-option2").click(function() {
+        var inputtedName = $("input#new-first-name").val();
+        var newName = new Name (inputtedName);
+        alert("Welcome!!! " + newName.player2   () + " The gladiator");
+      });
+  
+      $("#s-option2").click(function() {
+        var inputtedName = $("input#new-first-name").val();
+        var newName = new Name (inputtedName);
+        alert("Welcome!!! " + newName.player2   () + "The white walker");
+      });
+  
+  
+      $("#t-option2").click(function() {
+        var inputtedName = $("input#new-first-name").val();
+        var newName = new Name (inputtedName);
+          alert("Welcome!!! " + newName.player2   () + "The dark knight");
+        });
+        
+      
+  
+      $("#p-option2").click(function() {
+        var inputtedName = $("input#new-first-name").val();
+        var newName = new Name (inputtedName);
+        alert("Welcome!!! " + newName.player2   () + "The pirate");
       }); 
     
     

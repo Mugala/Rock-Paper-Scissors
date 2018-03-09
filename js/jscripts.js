@@ -1,5 +1,5 @@
-var loss=0;
-var win =0;
+var loses=0;
+var wins =0;
 
 var play =function (userChoice) {
   document.getElementById("player").innerHTML = "";
@@ -9,7 +9,14 @@ var play =function (userChoice) {
 
 if (userChoice == "rock" || userChoice == "paper" || userChoice == "scissors") {
     document.getElementById("player").innerHTML = 'You chose' + ' ' + userChoice + '.';
+  }else if (userChoice == "rope"){
+    document.getElementById("player").innerHTML = "You chose" + ' ' + userChoice + '.<br />well are\'t you a smarty pants.'; 
+  }else {
+    document.getElementById("player").innerHTML = "That is not a valid choice, try again";
+
+    return false;
   }
+     
 
 
 
@@ -50,15 +57,20 @@ var compare = function(choice1, choice2) {
       wins++;
       return "scissors win";
     }
+  }else if (choice1 =="rope"){
+    wins++;
+    return "rope FTW";
+  }else{
+    return "error. bummer dude. game over. no dice."
   }
-
+};
 
     var winner = compare(userChoice, computerChoice);
 document.getElementById("results").innerHTML = winner;
 document.getElementById("wins").innerHTML = wins;
 document.getElementById("loses").innerHTML = loses;
 
-if (wins > 99 || loses > 99) {
+if (wins > 999 || loses > 999) {
     document.getElementById("wins").style.fontSize = "44";
     document.getElementById("loses").style.fontSize = "44";
   }
@@ -68,9 +80,10 @@ if (wins > 99 || loses > 99) {
   if (loses > 999) {
     alert("Your opponent reached the max score of 999. <br />We're sorry, you have no life.");
   }
-}
 };
 
+
+console.log(loses)
 
 
 var reset = function() {
