@@ -17,20 +17,20 @@
     $(".Glad").click(function() {
         var inputtedName = $("input#new-first-name").val();
         var newName = new Name (inputtedName);
-        alert("WELCOME!!! " + newName.player1   () + " THE GLADIATOR");
+        alert("Welcome!!! " + newName.player1   () + " The gladiator");
       });
   
       $("#s-option").click(function() {
         var inputtedName = $("input#new-first-name").val();
         var newName = new Name (inputtedName);
-        alert("WELCOME!!!" + newName.player1   () + "THE WHITE WALKER");
+        alert("Welcome!!! " + newName.player1   () + "The white walker");
       });
   
   
       $("#t-option").click(function() {
         var inputtedName = $("input#new-first-name").val();
         var newName = new Name (inputtedName);
-          alert("WELCOME!!!" + newName.player1   () + "THE DARK KNIGHT");
+          alert("Welcome!!! " + newName.player1   () + "The dark knight");
         });
         
       
@@ -38,7 +38,7 @@
       $("#p-option").click(function() {
         var inputtedName = $("input#new-first-name").val();
         var newName = new Name (inputtedName);
-        alert("WELCOME!!!" + newName.player1   () + "THE PIRATE");
+        alert("Welcome!!! " + newName.player1   () + "The pirate");
       }); 
     
     
