@@ -70,7 +70,11 @@ if (wins > 99 || loses > 99) {
   }
 }
 };
+
+
+
 var reset = function() {
+
     loses = 0;
     wins = 0;
     document.getElementById("wins").innerHTML = wins;
