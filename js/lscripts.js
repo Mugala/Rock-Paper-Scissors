@@ -1,9 +1,8 @@
-$(document).ready(function() {
-    $("f-option").click(function() {
+  $(".Glad").click(function() {
       alert("WELCOME!!!" + " " + "THE GLADIAROTR");
     });
 
-    $("s-option").click(function() {
+    $("#s-option").click(function() {
       alert("WELCOME!!!" + " " + "THE WHITE WALKER");
     });
 
@@ -11,13 +10,15 @@ $(document).ready(function() {
         alert("WELCOME!!!" + " " + "THE WHITE WALKER");
       });
 
-    $("t-option").click(function() {
+    $("#t-option").click(function() {
         alert("WELCOME!!!" + " " + "THE DARK KNIGHT");
       });
       
     
 
-    $("p-option").click(function() {
+    $("#p-option").click(function() {
       alert("WELCOME!!!" + " " + "THE PIRATE");
     });
-  });
+
+
+  
