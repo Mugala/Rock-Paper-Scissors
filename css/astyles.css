@@ -1,0 +1,38 @@
+@font-face {
+  src: url(../fonts/fonty.ttf);
+  font-family: fonty;
+}
+
+#text {
+  font-family: fonty;
+  font-size: 160px;
+  color: blue;
+  text-decoration: underline;
+  font-weight: lighter;
+}
+
+body {
+  background-size: cover;
+  font-size: 60px;
+  font-family: fonty;
+  image-resolution: from-image;
+  padding-left: 5%;
+  border: 0%;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+#navbar {
+  display:inline-block;
+  font-size: 60px;
+  background-color: grey;
+  opacity: 0.7;
+  color: black;
+}
+#texto{
+  color: black;
+}
+.flexbox {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}

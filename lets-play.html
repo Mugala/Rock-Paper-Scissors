@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="css/jbootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/jstyles.css" rel="stylesheet" type="text/css">
+  <title>Let's play</title>
+</head>
+
+<body>
+
+  <div class="page-header">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-md-9">
+          <h1 id="font"> Let's Play</h1>
+          <h1>Rock!Papers!Scissors</h1>
+        </div>
+        <div class="col-md-3">
+          <ul class="nav navbar-nav navbar-right" id="navbar">
+            <li><a href="index.html" id="texto">Home Page</a></li>
+            <li><a href="playerVcomp.html" id="texto">One player</a></li>
+            <li><a href="player1Vplayer2.html" id="texto">Two  players</a></li>
+              </ul>
+            </div>
+        </div>
+  </div>
+</div>
+</div>
+    <p id="font1">Click any of the following options and see if you win. Good luck!</p>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4">
+        <button id="btn" class="btn btn-primary" type="button" class="Rock" onclick="play ('rock')"><span id="rockFont"><img src="images/rock2.gif" alt="Rock" id="rock">Rock!</span></button>
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn" type="button" class="Paper" onclick="play('paper')"><span id="paperFont"><img src="images/paper.gif" alt="Paper" id="paper" >Paper!</span></button>
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-success" type="button" class="Scissors" onclick="play('scissors')"><span id="scissorFont"><img src="images/scissors.gif" alt="scissor" id="scissor" >Scissors!</span></button>
+      </div>
+    </div>
+
+    <center><button type="reset" class="btn btn-danger" id="reset" onclick="reset()"><span id="reset1"><a href="lets-play.html" id="texto">Reset</a></span></button></center>
+    
+    <div class="outie">
+    <p id="font2"><b>RESULTS</b></p>
+    <div id="Result"> </div>
+    <p><span id="player"></span> <span id="opponent"></span></p>
+    <h2 id="results"></h2>
+    <h2>Score</h2>
+    <div class="score-num"><span id="wins">0</span> wins</div>
+    <div class="score-divider"><span>-</span></div>
+    <div class="score-num"><span id="loses">0</span> loses</div>
+    </div>
+  </div> 
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/jscripts.js"></script>
+  </div>
+</body>
+
+</html>
